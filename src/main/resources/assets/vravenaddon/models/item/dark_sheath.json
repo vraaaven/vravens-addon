@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/handheld",
+    "loader": "neoforge:separate_transforms",
+    "base": {
+        "parent": "vravenaddon:item/dark_sheath_handheld"
+    },
+    "perspectives": {
+        "gui": {
+            "parent": "vravenaddon:item/dark_sheath_gui"
+        },
+        "fixed": {
+            "parent": "vravenaddon:item/dark_sheath_fixed"
+        }
+    }
+}

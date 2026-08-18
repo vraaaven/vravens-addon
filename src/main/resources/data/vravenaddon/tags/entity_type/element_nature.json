@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "irons_spellbooks:apothecarist",
+    "spellcastingmobs:druid",
+    "alshanex_familiars:druid_pet"
+  ]
+}

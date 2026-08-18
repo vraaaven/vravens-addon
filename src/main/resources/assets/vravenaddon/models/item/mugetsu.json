@@ -1,0 +1,8 @@
+{
+	"parent": "vravenaddon:item/template_katana",
+	"textures": {
+		"layer0": "vravenaddon:item/mugetsu_effect_below",
+		"layer1": "vravenaddon:item/mugetsu",
+		"layer2": "vravenaddon:item/mugetsu_effect_above"
+	}
+}

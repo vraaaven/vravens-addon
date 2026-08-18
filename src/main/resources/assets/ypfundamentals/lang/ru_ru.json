@@ -1,0 +1,8 @@
+{
+  "death.attack.ypfundamentals.sol": "%1$s был испепелен звездой, созданной %2$s",
+  "death.attack.ypfundamentals.ignite": "%1$s вспыхнул и сгорел дотла благодаря %2$s",
+  "death.attack.ypfundamentals.thorn": "%1$s исколат в шипами %2$s",
+  "death.attack.ypfundamentals.laceration": "%1$s был жестоко изрезан %2$s",
+  "death.attack.ypfundamentals.holy_lighting": "%1$s был поражен святой молнией %2$s",
+  "death.attack.ypfundamentals.sacred_disk": "%1$s пал от летящего священного диска игрока %2$s"
+}

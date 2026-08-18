@@ -1,0 +1,8 @@
+{
+  "death.attack.discerning_the_eldritch.soul_slice": "Душа %1$s был рассечена %2$s",
+  "death.attack.discerning_the_eldritch.vein_ripper": "%1$s стал жертвой вен %2$s",
+  "death.attack.discerning_the_eldritch.libras_judgement": "%1$s был приговорен к смерти судом Весов игрока %2$s",
+  "death.attack.discerning_the_eldritch.blades_of_rancor": "%1$s захлебнулся в вихре клинков злобы от %2$s",
+  "death.attack.discerning_the_eldritch.rift_walker": "%1$s был разорван на атомы пространственным разломом %2$s",
+  "death.attack.razor_damage": "%1$s был разрезан на мельчайшие куски %2$s"
+}

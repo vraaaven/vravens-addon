@@ -1,0 +1,68 @@
+{
+  "itemGroup.wind_spellbooks.creative_tab": "Ветряные книги заклинаний",
+
+  "effect.wind_spellbooks.tailwind": "Попутный ветер",
+
+  "school.wind_spellbooks.wind": "Ветер",
+  "attribute.wind_spellbooks.wind_magic_resist": "Сопротивление магии ветра",
+  "attribute.wind_spellbooks.wind_spell_power": "Сила заклинаний ветра",
+
+  "spell.wind_spellbooks.wind_jump": "Прыжок ветра",
+  "spell.wind_spellbooks.wind_jump.guide": "Подбросьте себя в воздух",
+
+  "spell.wind_spellbooks.tornado": "Торнадо",
+  "spell.wind_spellbooks.tornado.guide": "Создаёт торнадо в указанной области, которое затягивает ближайших существ и подбрасывает их в воздух",
+
+  "spell.wind_spellbooks.iron_slash": "Стальной ветер",
+  "spell.wind_spellbooks.iron_slash.guide": "Сосредоточьтесь, затем совершите стремительный рывок, рассекающий врагов",
+
+  "spell.wind_spellbooks.aeropic": "Ветропик",
+  "spell.wind_spellbooks.aeropic.guide": "Прыгните вперёд в крутящейся электрической атаке, которая наносит урон первому противнику и подбрасывает вас в воздух. Пока вы поражаете цель, атаку можно повторять.",
+
+  "spell.wind_spellbooks.almighty_push": "Всемогущий толчок",
+  "spell.wind_spellbooks.almighty_push.guide": "Создаёт вокруг вас область ветра, отбрасывающую существ во все стороны, нанося им урон при столкновении со стеной",
+
+  "spell.wind_spellbooks.wind_blade": "Ветряной клинок",
+  "spell.wind_spellbooks.wind_blade.guide": "Взмахни, чтобы выпустить сконцентрированный клинок ветра, разрезающий существ на своём пути",
+
+  "spell.wind_spellbooks.tailwind": "Скорость ветра",
+  "spell.wind_spellbooks.tailwind.guide": "Наделите себя силой ветра, увеличивая скорость и мобильность в воздухе.",
+
+  "item.wind_spellbooks.wind_staff": "Посох ветра",
+  "item.wind_spellbooks.wind_spell_book": "Книга бурь",
+  "item.wind_spellbooks.wind_upgrade_orb": "Сфера улучшения ветра",
+  "item.wind_spellbooks.wind_rune": "Руна ветра",
+
+  "item.wind_spellbooks.aeromancer_helmet": "Шляпа аэроманта",
+  "item.wind_spellbooks.aeromancer_chestplate": "Куртка аэроманта",
+  "item.wind_spellbooks.aeromancer_leggings": "Поножи аэроманта",
+  "item.wind_spellbooks.aeromancer_boots": "Ботинки аэроманта",
+
+  "item.wind_spellbooks.aeromancer_spawn_egg": "Яйцо призыва аэроманта",
+
+  "entity.wind_spellbooks.aeromancer": "Аэромант",
+
+  "affix.wind_spellbooks:spellbook/attribute/fire_spell_power": "Аэроманта",
+
+  "item.wind_spellbooks.moutain_tower_map": "Башня одинокого волшебника",
+
+  "death.attack.wind_magic": "%1$s был убит магией ветра %2$s",
+
+  "death.attack.wind_spellbooks.tornado": "%1$s был раздавлен торнадо %2$s",
+  "death.attack.wind_spellbooks.tornado.item": "%1$s был раздавлен торнадо %2$s, используя %3$s",
+
+  "death.attack.wind_spellbooks.iron_slash": "Жизнь %1$s была прервана %2$s",
+  "death.attack.wind_spellbooks.iron_slash.item": "Жизнь %1$s была прервана %2$s, использовавшим %3$s",
+
+  "death.attack.wind_spellbooks.aeropic": "%1$s был избит %2$s",
+  "death.attack.wind_spellbooks.aeropic.item": "%1$s был избит %2$s, использовавшим %3$s",
+
+  "death.attack.wind_spellbooks.almighty_push": "%1$s был сметён %2$s",
+  "death.attack.wind_spellbooks.almighty_push.item": "%1$s был сметён %2$s, использовавшим %3$s",
+
+  "death.attack.wind_spellbooks.wind_blade": "Жизнь %1$s была рассечена %2$s",
+  "death.attack.wind_spellbooks.wind_blade.item": "Жизнь %1$s была рассечена %2$s, использовавшим %3$s",
+
+  "advancements.wind_spellbooks.spell_book_wind.title": "Унесённые ветром",
+  "advancements.wind_spellbooks.spell_book_wind.description": "Получите Книгу бурь."
+}

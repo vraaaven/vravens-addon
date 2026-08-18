@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "irons_spellbooks:priest",
+    "wizardshelp:summoned_priest",
+    "spellcastingmobs:celestial"
+  ]
+}

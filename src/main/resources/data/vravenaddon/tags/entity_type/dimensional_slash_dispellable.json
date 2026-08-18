@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "irons_spellbooks:black_hole", "required": false },
+    { "id": "gametechbcs_spellbooks:acid_rain_aoe", "required": false },
+    { "id": "gametechbcs_spellbooks:blood_rain_aoe", "required": false },
+    { "id": "gametechbcs_spellbooks:blackout_anti_magic_field", "required": false },
+    { "id": "peyroscythe:golden_bell", "required": false },
+    { "id": "peyroscythe:abyss_mud", "required": false },
+    { "id": "peyroscythe:crimson_moon", "required": false },
+    { "id": "peyroscythe:frost_fog", "required": false },
+    { "id": "discerning_the_eldritch:esoteric_edge", "required": false },
+    { "id": "cataclysm_spellbooks:abyssal_rift", "required": false },
+    { "id": "cataclysm:abyss_mine", "required": false },
+    { "id": "cataclysm:abyss_blast_portal", "required": false },
+    { "id": "cataclysm:abyssal_rift", "required": false }
+  ]
+}

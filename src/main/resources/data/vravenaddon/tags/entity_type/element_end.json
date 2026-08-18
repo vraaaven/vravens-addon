@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:enderman",
+    "minecraft:ender_dragon",
+    "spellcastingmobs:endermancer",
+    "mutantmonsters:mutant_enderman",
+    "magic_realms:endermage"
+
+  ]
+}

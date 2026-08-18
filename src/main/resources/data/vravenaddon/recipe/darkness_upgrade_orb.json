@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rrr",
+        "ror",
+        "rrr"
+    ],
+    "key": {
+        "o": {
+            "item": "irons_spellbooks:upgrade_orb"
+        },
+        "r": {
+            "item": "vravenaddon:darkness_rune"
+        }
+    },
+    "result": {
+        "id": "vravenaddon:darkness_upgrade_orb",
+        "count": 1
+    }
+}

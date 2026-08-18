@@ -1,0 +1,20 @@
+{
+  "dimensional_slash": {
+    "subtitle": "subtitles.vravenaddon.dimensional_slash",
+    "sounds": [
+      "vravenaddon:dimensional_slash"
+    ]
+  },
+  "powerful_slash_swing": {
+    "subtitle": "subtitles.vravenaddon.powerful_slash_swing",
+    "sounds": [
+      "vravenaddon:powerful_slash_swing"
+    ]
+  },
+  "powerful_slash_wind_up": {
+    "subtitle": "subtitles.vravenaddon.powerful_slash_wind_up",
+    "sounds": [
+      "vravenaddon:powerful_slash_wind_up"
+    ]
+  }
+}

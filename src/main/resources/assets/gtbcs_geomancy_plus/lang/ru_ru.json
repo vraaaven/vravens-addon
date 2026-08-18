@@ -1,0 +1,11 @@
+{
+  "death.attack.gtbcs_geomancy_plus.petrivise": "%1$s был превращен в каменную статую магией игрока %2$s",
+  "death.attack.gtbcs_geomancy_plus.fissure": "%1$s был сброшен в трещину, созданную %2$s",
+  "death.attack.gtbcs_geomancy_plus.chunker": "%1$s был раздавлен обломком породы, обрушенным %2$s",
+  "death.attack.gtbcs_geomancy_plus.tremor_spike": "%1$s был пронзен шипом из земли, призванным %2$s",
+  "death.attack.gtbcs_geomancy_plus.tremor_step": "%1$s потерял равновесие от землетрясения, вызванного %2$s",
+  "death.attack.gtbcs_geomancy_plus.eroding_boulder": "%1$s не пережил удар разъедающего валуна от руки %2$s",
+  "death.attack.gtbcs_geomancy_plus.dripstone_bolt": "%1$s был расстрелян каменными стрелами заклинателя %2$s",
+  "death.attack.gtbcs_geomancy_plus.pillar_of_the_resounding_earth": "%1$s пал под мощью земного столпа, воздвигнутого %2$s",
+  "death.attack.gtbcs_geomancy_plus.solar_beam": "%1$s сгорел в лучах солнца, направленных %2$s"
+}

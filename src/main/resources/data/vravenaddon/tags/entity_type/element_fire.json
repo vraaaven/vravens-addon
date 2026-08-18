@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:blaze",
+    "minecraft:magma_cube",
+    "irons_spellbooks:pyromancer",
+    "wizardshelp:summoned_pyromancer",
+    "irons_spellbooks:fire_boss",
+    "cataclysm:ignis"
+  ]
+}
