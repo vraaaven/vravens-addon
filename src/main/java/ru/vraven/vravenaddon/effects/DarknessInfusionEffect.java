@@ -16,10 +16,10 @@ import ru.vraven.vravenaddon.registry.ParticleRegistry;
 import ru.vraven.vravenaddon.registry.VAttributeRegistry;
 
 public class DarknessInfusionEffect extends MagicMobEffect implements ISyncedMobEffect {
-    public static final double SPEED_PER_LEVEL = 0.015D;
+    public static final double SPEED_PER_LEVEL = 0.012D;
     public static final double DARKNESS_POWER_PER_LEVEL = 0.0075D;
-    public static final double DAMAGE_PER_LEVEL = 0.005D;
-    public static final double ATTACK_SPEED_PER_LEVEL = 0.01D;
+    public static final double DAMAGE_PER_LEVEL = 0.0075D;
+    public static final double ATTACK_SPEED_PER_LEVEL = 0.012D;
 
     public DarknessInfusionEffect(MobEffectCategory category, int color) {
         super(category, color);

@@ -123,6 +123,9 @@ public class VSpellRegistries {
     public static final Supplier<AbstractSpell> DARK_DASH = registerSpell(new DarkDashSpell());
 
 
+    public static final Supplier<AbstractSpell> NULLIFYING_STRIKE = registerSpell(new NullifyingStrikeSpell());
+
+
 
 
 

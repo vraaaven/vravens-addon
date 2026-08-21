@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ru.vraven.vravenaddon.VravenAddon;
 import ru.vraven.vravenaddon.particles.DarkSlashParticleOptions;
+import ru.vraven.vravenaddon.particles.NullifyingSlashParticleOptions;
 import com.mojang.serialization.MapCodec;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.core.particles.ParticleType;
@@ -76,6 +77,19 @@ public class ParticleRegistry {
                 @Override
                 public StreamCodec<? super ByteBuf, DarkSlashParticleOptions> streamCodec() {
                     return DarkSlashParticleOptions.STREAM_CODEC;
+                }
+            });
+
+    public static final DeferredHolder<ParticleType<?>, ParticleType<NullifyingSlashParticleOptions>> NULLIFYING_SLASH =
+            PARTICLES.register("nullifying_slash", () -> new ParticleType<NullifyingSlashParticleOptions>(false) {
+                @Override
+                public MapCodec<NullifyingSlashParticleOptions> codec() {
+                    return NullifyingSlashParticleOptions.MAP_CODEC;
+                }
+
+                @Override
+                public StreamCodec<? super ByteBuf, NullifyingSlashParticleOptions> streamCodec() {
+                    return NullifyingSlashParticleOptions.STREAM_CODEC;
                 }
             });
 

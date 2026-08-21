@@ -74,7 +74,6 @@ public class DimensionalSlash extends AbstractMagicProjectile {
     private static final Set<ResourceLocation> FALLBACK_DISPELLABLE_IDS = Set.of(
             ResourceLocation.fromNamespaceAndPath("irons_spellbooks", "black_hole"),
             ResourceLocation.fromNamespaceAndPath("irons_spellbooks", "ice_spike"),
-            ResourceLocation.fromNamespaceAndPath("irons_spellbooks", "ice_spike"),
 
             ResourceLocation.fromNamespaceAndPath("gametechbcs_spellbooks", "acid_rain_aoe"),
             ResourceLocation.fromNamespaceAndPath("gametechbcs_spellbooks", "blood_rain_aoe"),

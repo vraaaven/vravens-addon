@@ -22,9 +22,11 @@ public class BlizzardAspectMobEffect extends MagicMobEffect {
 
     @Override
     public boolean applyEffectTick(LivingEntity entity, int pAmplifier) {
-        int radiusSqr = 400;
+        if (entity.level().isClientSide) return true;
+        int radiusSqr = 400; // 20 блоков
 
-        entity.level().getEntitiesOfClass(LivingEntity.class, entity.getBoundingBox().inflate(10.0, 6.0, 10.0),
+        // Увеличен inflate до 20.0 по X/Z и 12.0 по Y
+        entity.level().getEntitiesOfClass(LivingEntity.class, entity.getBoundingBox().inflate(20.0, 12.0, 20.0),
                 livingEntity -> livingEntity != entity
                         && this.horizontalDistanceSqr(livingEntity, entity) < (float)radiusSqr
                         && livingEntity.isPickable()
@@ -49,9 +51,8 @@ public class BlizzardAspectMobEffect extends MagicMobEffect {
     }
 
     public static float getDamageFromAmplifier(int effectAmplifier, @Nullable LivingEntity caster) {
-        float baseDamage = 6.0f + (effectAmplifier * 1.5f);
-        float multiplier = caster == null ? 1.0f : VSpellRegistries.BLIZZARD_ASPECT.get().getEntityPowerMultiplier(caster);
+        float power = caster == null ? 1.0f : VSpellRegistries.BLIZZARD_ASPECT.get().getEntityPowerMultiplier(caster);
 
-        return baseDamage * multiplier;
+        return (((effectAmplifier - 7) * 1.5f * power) + 6.0f);
     }
 }

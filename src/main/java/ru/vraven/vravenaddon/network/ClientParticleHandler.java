@@ -34,5 +34,6 @@ public class ClientParticleHandler {
         event.registerSpriteSet(ParticleRegistry.DARK_MATTER.get(), DarkMatterParticle.Provider::new);
         // ТЬМА
         event.registerSpriteSet(ParticleRegistry.DARK_SLASH.get(), DarkSlashParticle.Provider::new);
+        event.registerSpriteSet(ParticleRegistry.NULLIFYING_SLASH.get(), NullifyingSlashParticle.Provider::new);
     }
 }
